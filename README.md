@@ -23,12 +23,12 @@ This project is a complete data pipeline demo built using:
 ```bash
 git clone git@github-nilayy:nwoow/3sc.git
 cd 3sc
-
+```bash
 🐳 Build and Run All Services with Docker
-
+```bash
     docker-compose build
     docker-compose up -d
-
+```bash
 🔄 Restart the Backend After Boot
     
     docker-compose restart backend
@@ -62,13 +62,13 @@ cd 3sc
 
 ✨ Features
 
-Generates 1000+ random transactions per minute
+    Generates 1000+ random transactions per minute
 
-Real-time processing with Kafka
+    Real-time processing with Kafka
 
-Persistent storage in PostgreSQL
+    Persistent storage in PostgreSQL
 
-REST API with filtering and pagination
+    REST API with filtering and pagination
 
-Material UI DataGrid in the frontend for search and display
+    Material UI DataGrid in the frontend for search and display
 
