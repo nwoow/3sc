@@ -18,18 +18,19 @@ This project is a complete data pipeline demo built using:
 
 ## 🔧 Setup Instructions
 
-### 1. Clone the repository
+### Clone the repository
 
 ```bash
 git clone git@github-nilayy:nwoow/3sc.git
 cd 3sc
-```bash
-🐳 Build and Run All Services with Docker
+```
+### 🐳 Build and Run All Services with Docker
 ```bash
     docker-compose build
     docker-compose up -d
-```bash
-🔄 Restart the Backend After Boot
+```
+
+### 🔄 Restart the Backend After Boot
     
     docker-compose restart backend
 
